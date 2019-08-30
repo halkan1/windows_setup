@@ -20,4 +20,4 @@ function NewDirs {
 
 $dir_array='python','wsl','general','windows','web','fonts','c'
 
-$dir_array | foreach { NewDirs -Directory $env:USERPROFILE\Documents\development1\$_ }
+$dir_array | foreach { NewDirs -Directory $env:USERPROFILE\Documents\development\$_ }
