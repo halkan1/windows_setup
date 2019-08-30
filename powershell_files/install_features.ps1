@@ -11,3 +11,11 @@ Invoke-WebRequest -Uri $URL -OutFile $Filename -UseBasicParsing
 Invoke-Item $FileName
 
 # Find URL for Windows Terminal and repeat above process
+
+# Windows Terminal
+https://www.microsoft.com/store/productId/9N0DX20HK701
+ms-windows-store://pdp/?ProductId=9N0DX20HK701
+
+# WSL Ubuntu
+https://www.microsoft.com/store/productId/9NBLGGH4MSV6
+ms-windows-store://pdp/?ProductId=9NBLGGH4MSV6
