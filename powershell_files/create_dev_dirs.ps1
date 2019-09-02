@@ -18,6 +18,15 @@ function NewDirs {
     }
 }
 
-$dir_array='python','wsl','general','windows','web','fonts','c'
+$dir_array=@(
+    'bash',
+    'c',
+    'fonts',
+    'general',
+    'python',
+    'windows',
+    'web',
+    'wsl'
+  )
 
-$dir_array | foreach { NewDirs -Directory $env:USERPROFILE\Documents\development\$_ }
+$dir_array | foreach { NewDirs -Directory $env:USERPROFILE\Documents\Development\$_ }
