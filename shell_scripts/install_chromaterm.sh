@@ -1,6 +1,6 @@
 OWNING_USER=$(whoami)
 
-git clone https://github.com/hSaria/ChromaTerm--.git ~/development/c/
+git clone https://github.com/hSaria/ChromaTerm--.git ~/development/c/ChromaTerm--
 cd ~/development/c/ChromaTerm--/src/ 
 ./configure
 make install
